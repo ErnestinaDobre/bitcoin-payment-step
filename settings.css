@@ -1,0 +1,84 @@
+html {
+  height:100%;
+margin:0;
+min-height: 100%;
+font-family: sans-serif;
+
+}
+    body {
+    background-image: linear-gradient(#E0FFFF, #F0F8FF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+margin:0;
+overflow: hidden;
+}
+.code {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  border-left: solid 40px transparent;
+  border-right: solid 50px transparent;
+  border-bottom: solid 50px #fff;
+  box-shadow: 0 0 20px #333;
+}
+.QR {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.test {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 900px;
+  height: 650px;
+  border-radius: 3px;
+}
+
+.btnPlata {
+  position: relative;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: DarkBlue;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+  box-shadow:8px 5px 8px #888888;
+}
+
+
+#wrapper {
+
+overflow:auto; position:absolute; top: 0; left:0; right:0; bottom:0
+}
+#my_canvas{
+  width: 70px;
+  height: 70px;
+  animation-delay: 0.5;
+}
+#loading {
+  right: 0;
+  position: absolute;
+}
